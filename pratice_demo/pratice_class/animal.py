@@ -17,11 +17,15 @@ class Animal:
         self.gender = gender
 
     def shout(self):
-        print("我会叫")
+        # print("我会叫")
+        print(f"{self.name}会叫")
 
     def run(self):
-        print("我会跑")
+        # print("我会跑")
+        print(f"{self.name}会跑")
 
 if __name__ == '__main__':
     dog = Animal("DA",'Yellow',3,'Female')
+    dog.shout()
+    dog.run()
     # print(dog.gender)
