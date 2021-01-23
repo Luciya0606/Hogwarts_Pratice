@@ -9,6 +9,7 @@ __author__ = 'Tnew'
 重写父类的【会叫】的方法，改成【喵喵叫】
 """
 
+
 class Animal:
     def __init__(self, name, color, age, gender):
         self.name = name
@@ -24,8 +25,9 @@ class Animal:
         # print("我会跑")
         print(f"{self.name}会跑")
 
+
 if __name__ == '__main__':
-    dog = Animal("DA",'Yellow',3,'Female')
+    dog = Animal("DA", 'Yellow', 3, 'Female')
     dog.shout()
     dog.run()
     print(dog.gender)

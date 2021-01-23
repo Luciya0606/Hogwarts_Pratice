@@ -15,8 +15,9 @@ class Cat(Animal):
     def shout(self):
         print(f"{self.name}喵喵叫")
 
+
 if __name__ == '__main__':
-    cat_1 = Cat('tom','red',4,'male')
+    cat_1 = Cat('tom', 'red', 4, 'male')
     print(cat_1.hair)
     cat_1.catch()
     cat_1.shout()
