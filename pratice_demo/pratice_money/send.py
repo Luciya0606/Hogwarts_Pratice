@@ -12,7 +12,8 @@ __author__ = 'Tnew'
 
 import money
 
-#定义发工资模块 send_money，用来增加收入计算
+
+# 定义发工资模块 send_money，用来增加收入计算
 def send_money(salary):
     print(f"你未发工资前的存款为{money.saved_money}")
     money.saved_money += salary
