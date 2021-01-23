@@ -28,4 +28,4 @@ if __name__ == '__main__':
     dog = Animal("DA",'Yellow',3,'Female')
     dog.shout()
     dog.run()
-    # print(dog.gender)
+    print(dog.gender)
